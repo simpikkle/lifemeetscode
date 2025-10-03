@@ -1,3 +1,18 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Life Meets Code
+description: Explaining programming topics in simple language, sharing developer experiences, and finding real-life implementations of DSA
+author: Life Meets Code
+email: contact@lifemeetscode.nl
+
+# Social Links
+youtube_url: https://youtube.com/@lifemeetscode
+instagram_url: https://instagram.com/simpikkle
+github_url: https://github.com/simpikkle
+
+# Brand Colors
+primary_color: "#017361"
+secondary_color: "#f8f35e"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag

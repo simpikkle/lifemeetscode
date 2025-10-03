@@ -1,0 +1,197 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ site.description }}" />
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="logo-container">
+          <div class="logo-circle">
+            <span class="logo-text">LMC</span>
+          </div>
+        </div>
+        <h1 class="site-title">Life Meets Code</h1>
+        <p class="tagline">Programming made simple</p>
+        <p class="subtitle">
+          Programming • Developer Life • Data Structures & Algorithms
+        </p>
+        <div class="cta-buttons">
+          <a
+            href="{{ site.youtube_url }}"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <i class="fab fa-youtube"></i> Visit My Channel
+          </a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">Hi, I'm Behind Life Meets Code! 👋</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="intro-text">
+              I'm a software engineer on a mission to demystify programming and
+              make it accessible to everyone.
+            </p>
+            <p>
+              I am trying to make programming make sense, both by sharing the
+              lessons I've learned with fellow developers, and by translating
+              programming concepts for normal people. And sharing some life
+              behind the scenes, of course. Whether you're a beginner taking
+              your first steps into coding or an experienced developer looking
+              to strengthen your fundamentals, there's something here for you.
+            </p>
+            <div class="highlights">
+              <div class="highlight-item">
+                <i class="fas fa-code"></i>
+                <h3>Simple Explanations</h3>
+                <p>Complex topics broken down into understandable concepts</p>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Real Experiences</h3>
+                <p>Sharing my journey and lessons learned as a developer</p>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Practical DSA & Tech</h3>
+                <p>
+                  Real-world implementations of data structures and algorithms
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Video Section -->
+    <section id="featured" class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Featured Video</h2>
+        <div class="featured-content">
+          <div class="video-wrapper">
+            <!-- Replace VIDEO_ID with your actual YouTube video ID -->
+            <iframe
+              src="https://www.youtube.com/embed/7FrDEqNnERs"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          <div class="video-description">
+            <h3>
+              Graphs: The data structure you need when you're lost in the forest
+            </h3>
+            <p>
+              Graphs are one of the most powerful data structures in computer
+              science — from finding the shortest path in a forest to modeling
+              social networks, road maps, or even course prerequisites. In this
+              video, we’ll explore what graphs are, how they’re represented in
+              code, and the algorithms that make them so useful. In this video
+              we dive into what graphs are, how nodes and edges define them, and
+              how different types of graphs like directed, undirected, or
+              weighted graphs appear in real life. We also look at common ways
+              to represent graphs in code, from adjacency lists and adjacency
+              matrices to classes with metadata.
+            </p>
+            <div class="video-tags">
+              <span class="tag">Data Structures</span>
+              <span class="tag">Graphs</span>
+              <span class="tag">Explained easy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-intro">
+          Interested in collaborations, partnerships, or have a topic you'd like
+          me to cover? I'd love to hear from you!
+        </p>
+        <div class="contact-content">
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Me</h3>
+            <a href="mailto:{{ site.email }}" class="contact-link"
+              >{{ site.email }}</a
+            >
+            <p>For partnerships, collaborations, or content requests</p>
+          </div>
+          <div class="social-links">
+            <h3>Follow Along</h3>
+            <div class="social-icons">
+              <a
+                href="{{ site.youtube_url }}"
+                target="_blank"
+                class="social-icon youtube"
+                aria-label="YouTube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                href="{{ site.instagram_url }}"
+                target="_blank"
+                class="social-icon instagram"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="{{ site.github_url }}"
+                target="_blank"
+                class="social-icon github"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2025 Life Meets Code. Built with
+          <i class="fas fa-heart"></i> and Jekyll
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
